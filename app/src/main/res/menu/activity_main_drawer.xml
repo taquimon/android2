@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/pedidos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pedidos" />
+        <item
+            android:id="@+id/productos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Productos" />
+        <item
+            android:id="@+id/clientes"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/reportes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Reportes" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/fb"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Faacebook" />
+            <item
+                android:id="@+id/gplus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Google +" />
+            <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/youtube"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Youtube" />
+        </menu>
+    </item>
+
+</menu>
